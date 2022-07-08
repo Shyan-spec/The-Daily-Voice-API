@@ -1,0 +1,25 @@
+{
+  "name": "mystatusapp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": " npx nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1"
+  }
+}
